@@ -1,7 +1,8 @@
 import adal
 import requests
 import json
-Import pandas
+
+
 authority url 'https://login.windows.net/common
 resource _url - 'https://analysis.windows.net/powerbi/api
 client_id - 'INSERT_YOUR CLIENT ID
@@ -26,4 +27,4 @@ for group in groups:
     for dataset in datasets:
         refresh_url - 'https://api.powerbi.com/v1.0/myorg/groups/ group /datasets/ dataset + /refreshes
             requests.post (url-refresh_url, headers-header)
-final - pandas.DataFrane()
+
