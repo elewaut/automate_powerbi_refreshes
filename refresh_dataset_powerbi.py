@@ -3,11 +3,11 @@ import requests
 import json
 
 
-authority_url = 'https://login.windows.net/common
-resource_url = 'https://analysis.windows.net/powerbi/api
-client_id = 'INSERT_YOUR CLIENT ID
+authority_url = 'https://login.windows.net/common'
+resource_url = 'https://analysis.windows.net/powerbi/api'
+client_id = 'INSERT_YOUR CLIENT ID'
 username = 'YOUR POWERBI_ EMAIL'
-password = "YOUR POWERBI_PASSMORD
+password = 'YOUR POWERBI_PASSMORD'
 context = adal.AuthenticationContext (authority-authority url,
                                          validate authority-True,
                                          api_version-None)
